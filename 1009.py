@@ -1,0 +1,5 @@
+nome = (input())
+salfixo = float(input())
+vendas = float(input())
+total = float(salfixo + vendas*0.15)
+print('TOTAL = R$ %.2f' % (total))
