@@ -1,0 +1,6 @@
+coordenadax1 = int(input("Digite o valor da coordenada x1: "))
+coordenaday1 = int(input("Digite o valor da coordenada y1: "))
+coordenadax2 = int(input("Digite o valor da coordenada x2: "))
+coordenaday2 = int(input("Digite o valor da coordenada y2: "))
+distancia = (((coordenadax1-coordenadax2)**2)+((coordenaday1-coordenaday2)**2))**(1/2)
+print ("A distancia entre x e y eh: " +str(distancia))
