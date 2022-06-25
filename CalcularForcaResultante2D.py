@@ -1,5 +1,3 @@
-f1 = ""
-f2 = ""
 f1 = input("Digite os valores de f1, x1, y1, z1: ").split()
 f2 = input("Digite os valores de f2, x2, y2, z2: ").split()
 for i in range(3):
